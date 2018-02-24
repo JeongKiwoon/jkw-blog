@@ -1,3 +1,26 @@
-# markdown: redcarpet
-baseurl: /jkw-blog
-exclude: ['README.md']
+markdown: kramdown
+# baseurl: /jkw-blog
+exclude: [README.md, Gemfile, Gemfile.lock]
+parmalink: pretty
+timezone: Asia/Seoul
+keep_files: [assets, files]
+
+krandown:
+  input: GFM
+  highlighter: rouge
+
+plugins:
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: '/page/:num/'
+
+asset_url: /assets
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      permalink: /:year/:month/:day/:title/

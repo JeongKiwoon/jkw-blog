@@ -2,5 +2,39 @@
 layout: default
 ---
 
-  <h3>This is Blog of Kiwoon Jeong.</h3>
-  <p>hello, it's my first article !</p>
+<hgroup>
+  <h1 class="noto-900">Blog</h1>
+  <h2 style="color: rgba(0, 0, 0, .54);" class="noto-400">About me, design, development.</h2>
+</hgroup>
+
+<!-- pl: post-list -->
+
+<section class="pl-sec">
+  <ul class="pl-container">
+    {% for post in site.posts %}
+    <li class="pl-item">
+      <div class="pl-image" style="background-image: url({{ site.baseurl }}{{ post.image }});"></div>
+      <h2 class="pl-title"><a href="{{ post.url }}">{{post.title}}</a></h2>
+      <p class="pl-desc">
+        {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+      </p>
+      <div class="pl-meta">2018.02.18 | {{ post.meta }}</div>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <ul class="pagination oa">
+    <li><a href="#" class="not">&#x2190</a></li>
+    <li><a href="#" class="active">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">&#x2192</a></li>
+  </ul>
+</section>
+
+
+<footer>
+  Copyright C Kiwoon Jeong.
+</footer>

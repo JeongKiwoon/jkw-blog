@@ -1,0 +1,84 @@
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: rgba(0, 0, 0, .84);
+    font-family: 'Noto Sans KR', 'Helvetica', 'Helvetica Nenu', Sans-serif;
+  }
+
+  ul, li {
+    margin: 0;
+    list-style: none;
+  }
+
+  li a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .container {
+    padding-top: 96px;
+    width: 910px;
+    margin: 0 auto 0 48px;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+  }
+
+  hgroup {
+    position: relative;
+    padding-bottom: 60px;
+  }
+
+  hgroup::before {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    border-bottom: 2px solid black;
+  }
+
+  footer {
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid rgba(0, 0, 0, .54);
+    margin-top: 50px;
+  }
+
+  .navbar {
+    height: 64px;
+    background-color: rgba(255, 255, 255, .8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 1540px;
+    z-index: 2;
+  }
+
+  .navbar-list {
+    position: relative;
+    margin: 0 50px 0 0;
+    line-height: 64px;
+    float: right;
+  }
+
+  .navbar-list li {
+    display: inline-block;
+    margin: 0 14px;
+  }

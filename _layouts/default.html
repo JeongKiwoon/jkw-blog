@@ -5,21 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Kiwoon Jeong</title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}{{ site.asset_url }}/css/normalize.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}{{ site.asset_url }}/css/fonts.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}{{ site.asset_url }}/css/postList.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}{{ site.asset_url }}/css/main.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}{{ site.asset_url }}/css/mq.css">
 </head>
 <body>
+  <nav class="navbar">
+    <ul class="navbar-list noto-700">
+      <li>Blog</li>
+      <li>Work</li>
+      <li>About</li>
+    </ul>
+  </nav>
 
-  <header>
-    <h1>Kiwoon's Blog</h1>
-    {% include nav.html %}
-  </header>
-
-  {{ content }}
-
-  <footer>
-    {% include nav.html %}
-    <p> copyrights 2018. Kiwoon Jeong</p>
-  </footer>
+  <div class="container">
+    {{ content }}
+  </div>
 
 </body>
 </html>
