@@ -13,12 +13,14 @@ layout: default
   <ul class="pl-container">
     {% for post in site.posts %}
     <li class="pl-item">
-      <div class="pl-image" style="background-image: url({{ site.baseurl }}{{ post.image }});"></div>
+      <div class="pl-image" style="background-image: url({{ site.baseurl }}{{ post.image }});"><a href="{{ post.url }}"></a></div>
       <h2 class="pl-title"><a href="{{ post.url }}">{{post.title}}</a></h2>
       <p class="pl-desc">
+        <a href="{{ post.url }}">
         {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+        </a>
       </p>
-      <div class="pl-meta">2018.02.18 | {{ post.meta }}</div>
+      <div class="pl-meta">{{ post.date | date: "%Y-%m-%d" }} | <a href="#">{{ post.meta }}</a></div>
     </li>
     {% endfor %}
   </ul>

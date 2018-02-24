@@ -4,6 +4,7 @@ exclude: [README.md, Gemfile, Gemfile.lock]
 parmalink: pretty
 timezone: Asia/Seoul
 keep_files: [assets, files]
+excerpt_separator: <!--more-->
 
 krandown:
   input: GFM

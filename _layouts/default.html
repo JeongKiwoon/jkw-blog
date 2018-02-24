@@ -12,13 +12,8 @@
   <link rel="stylesheet" href="{{ site.baseurl }}{{ site.asset_url }}/css/mq.css">
 </head>
 <body>
-  <nav class="navbar">
-    <ul class="navbar-list noto-700">
-      <li>Blog</li>
-      <li>Work</li>
-      <li>About</li>
-    </ul>
-  </nav>
+
+  {% include nav.html %}
 
   <div class="container">
     {{ content }}
