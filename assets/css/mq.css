@@ -57,6 +57,14 @@
     bottom: 0;
   }
 
+  /*
+  * work list
+  */
+
+  .wl-sub {
+    font-size: 10px;
+  }
+
 }
 
 @media screen and (max-width: 959px) {

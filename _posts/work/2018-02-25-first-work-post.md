@@ -1,6 +1,6 @@
 ---
 layout: default
-title: '01. Remain Coffee Milk Tea Sticker Design'
+title: '01. Remain Coffee Milk Tea Sticker'
 sub: 'Branding'
 author: 'Kiwoon Jeong'
 date: 2018-02-25
