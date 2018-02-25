@@ -78,6 +78,11 @@
   unicode-range: U+2190-21ff;
 }
 
+/*
+* 나눔명조
+*/
+
+@import url('//cdn.rawgit.com/young-ha/webfont-archive/master/css/NanumMyeongjo.css');
 
 /*
 * Setting
@@ -100,4 +105,10 @@
 .oa {
   font-family: 'open-arrow', sans-serif;
 }
-'
+
+/* nm: 나눔명조 */
+.nm-900 {
+  font-family: 'NanumMyeongjo', serif;
+  font-weight: 900;
+  font-size: 18px;
+}

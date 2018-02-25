@@ -1,9 +1,11 @@
 ---
 layout: default
-title: '#01 Jekyll로 블로그 만들기!'
+title: '01. Remain Coffee Milk Tea Sticker Design'
+sub: 'Branding'
 author: 'Kiwoon Jeong'
 date: 2018-02-25
-image: /files/post-cover/photo-1.jpg
+image: /files/work-post-covers/photo-1.jpg
+category: work
 meta: '#Development'
 ---
 
