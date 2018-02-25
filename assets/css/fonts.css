@@ -101,8 +101,13 @@
 }
 
 /* nm: 나눔명조 */
+
+.nm {
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 400;
+}
+
 .nm-900 {
   font-family: 'Nanum Myeongjo', serif;
   font-weight: 800;
-  font-size: 15px;
 }
