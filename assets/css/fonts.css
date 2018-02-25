@@ -82,7 +82,7 @@
 * 나눔명조
 */
 
-@import url('//cdn.rawgit.com/young-ha/webfont-archive/master/css/NanumMyeongjo.css');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,800');
 
 /*
 * Setting
@@ -108,7 +108,7 @@
 
 /* nm: 나눔명조 */
 .nm-900 {
-  font-family: 'NanumMyeongjo', serif;
-  font-weight: 900;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 800;
   font-size: 15px;
 }
