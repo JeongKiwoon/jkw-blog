@@ -24,7 +24,7 @@
 
 .about-jkw {
   position: absolute;
-  right: 120px;
+  right: 0;
   width: 490px;
 }
 
@@ -32,4 +32,5 @@
   line-height: 1.8rem;
   word-break: break-word;
   margin: 0;
+  text-align: justify;
 }
