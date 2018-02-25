@@ -15,7 +15,6 @@
 .about-info-container {
   position: absolute;
   left: 0;
-  display: inline-block;
   width: 460px;
 }
 
@@ -25,8 +24,7 @@
 
 .about-jkw {
   position: absolute;
-  right: 0;
-  display: inline-block;
+  right: 120px;
   width: 490px;
 }
 

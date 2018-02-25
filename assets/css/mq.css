@@ -65,6 +65,24 @@
     font-size: 10px;
   }
 
+  /*
+  * about
+  */
+
+  .about-sec {
+    width: 100%;
+  }
+
+  .about-info-container {
+    width: 100%;
+    position: static;
+  }
+
+  .about-jkw {
+    width: 100%;
+    position: static;
+  }
+
 }
 
 @media screen and (max-width: 959px) {
@@ -79,5 +97,9 @@
 
   .wl-item {
     width: 100%;
+  }
+
+  .about-jkw {
+    right: 220px;
   }
 }
