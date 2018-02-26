@@ -6,7 +6,7 @@
 }
 
 .post-info {
-  margin-top: 96px;
+  margin-top: 60px;
   margin-bottom: 86px;
 }
 
@@ -21,6 +21,7 @@
   line-height:1.6em;
   font-weight: 400;
   color: rgba(0, 0, 0, .54);
+  margin-top: 8px;
 }
 
 .post-article {

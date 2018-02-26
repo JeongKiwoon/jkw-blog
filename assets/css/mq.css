@@ -128,4 +128,8 @@
     position: static;
   }
 
+  .about-desc {
+    line-height: 2.0rem;
+  }
+
 }
