@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<header class="post-header" style="background-image: url({{ site.baseurl }}{{ page.image }})"></header>
+<section class="post-info">
+  <h2>{{ page.date | date: "%Y.%m" }}</h2>
+  <h2>{{ page.title }}</h2>
+  <div>
+    Author: {{ page.author }}
+    <br />
+    <br />
+    <a style="border-bottom: 1px solid rgba(0, 0, 0, .54);" href="#">{{ page.meta }}</a>
+  </div>
+</section>
+<article class="post-article">
+  {{ content }}
+</article>
