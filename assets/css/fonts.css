@@ -81,13 +81,13 @@
 /*
 * Setting
 */
-.noto-400 {
-  font-weight: 400;
+.noto-300 {
+  font-weight: 300;
   letter-spacing: -1px;
 }
 
 .noto-700 {
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: -1px;
 }
 
@@ -101,7 +101,7 @@
 }
 
 /* nm: 나눔명조 */
-
+/*
 .nm {
   font-family: 'Nanum Myeongjo', serif;
   font-weight: 400;
@@ -111,3 +111,4 @@
   font-family: 'Nanum Myeongjo', serif;
   font-weight: 800;
 }
+*/
