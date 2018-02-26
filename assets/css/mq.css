@@ -15,8 +15,36 @@
   }
 
   .container {
+    width: 100% !important;
     min-width: 320px;
-    padding: 96px 16px 0;
+    padding: 96px 0 0;
+  }
+
+  hgroup {
+    position: relative;
+    padding-bottom: 60px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .pl-sec {
+    padding: 0 16px;
+  }
+
+  .wl-sec {
+    padding: 0 16px;
+  }
+
+  .about-sec {
+    padding: 0 16px;
+  }
+
+  .post-info {
+    padding: 0 16px;
+  }
+
+  .post-article {
+    padding: 0 16px;
   }
 
   /*
