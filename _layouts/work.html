@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<!-- <header class="work-header" style="background-image: url({{ site.baseurl }}{{ page.image }})"></header> -->
+<section class="work-info">
+  <h2>{{ page.date | date: "%Y.%m" }}</h2>
+  <h2>{{ page.postT }}</h2>
+  <div>
+    {% for role in page.role %}
+    <span>{{ role }}</span><br />
+    {% endfor %}
+    <br />
+    <br />
+    <span> - {{ page.sub }}</span>
+  </div>
+</section>
+<article class="work-article">
+  {{ content }}
+</article>

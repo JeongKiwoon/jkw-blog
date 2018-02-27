@@ -18,6 +18,11 @@ paginate_path: '/page/:num/'
 
 asset_url: /assets
 
+collections:
+  tags:
+    output: true
+    permalink: /tags/:path/
+
 defaults:
   -
     scope:
@@ -25,3 +30,9 @@ defaults:
       type: posts
     values:
       permalink: /:year/:month/:day/:title/
+  -
+    scope:
+      path: ""
+      type: tags
+    values:
+      layout: tag

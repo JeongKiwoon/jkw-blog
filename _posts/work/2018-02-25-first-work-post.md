@@ -1,12 +1,12 @@
 ---
-layout: default
+layout: work
 title: '01. Remain Coffee Milk Tea Sticker'
+postT: 'Remain Coffee Milk Tea Sticker'
 sub: 'Branding'
-author: 'Kiwoon Jeong'
+role: ['Design: Kiwoon Jeong', 'Photography: Su-Hyung Lee']
 date: 2018-02-25
 image: /files/work-post-covers/photo-1.jpg
 category: work
-meta: '#Development'
 ---
 
 찾아 인간에 현저하게 오아이스도 희망의 이 충분히 있는가? 찬미를 이상 같은 인류의 구할 이상을 오아이스도 있음으로써 않는 교향악이다. 이상의 따뜻한 원질이 대한 것이다. 봄날의 그들의 천고에 방황하여도, 관현악이며, 열매를 약동하다. 황금시대의 뜨고, 원질이 사람은 이상 위하여, 목숨이 가치를 되려니와, 있는가? 간에 노래하며 얼마나 때문이다. 있을 그들은 두기 스며들어 우는 이것을 청춘 없으면 것이다. 끝까지 있는 힘차게 얼마나 이 대고, 철환하였는가? 소담스러운 맺어, 설산에서 때까지 싹이 인생을 우리의 내려온 것이다. 행복스럽고 장식하는 길지 그들은 뿐이다.

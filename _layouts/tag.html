@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<hgroup>
+  <h1 class="noto-900 main-title">Blog</h1>
+  <h2 class="noto-300 main-sub">{{ page.tags }}</h2>
+</hgroup>
+
+<!-- pl: post-list -->
+<section class="pl-sec">
+  <ul class="pl-container">
+    {% for post in site.categories.blog %}
+      {% if post.tags contains page.name %}
+        <li class="pl-item">
+          <div class="pl-image" style="background-image: url({{ site.baseurl }}{{ post.image }});"><a href="{{ site.baseurl }}{{ post.url }}"></a></div>
+          <h2 class="pl-title"><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h2>
+          <p class="pl-desc">
+            <a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+            </a>
+          </p>
+          <div class="pl-meta">{{ post.date | date: "%Y-%m-%d" }} | <a href="#">{{ page.tags }}</a></div>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  {% include pagination.html %}
+</section>

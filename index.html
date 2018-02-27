@@ -19,18 +19,10 @@ layout: default
         {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
         </a>
       </p>
-      <div class="pl-meta">{{ post.date | date: "%Y-%m-%d" }} | <a href="#">{{ post.meta }}</a></div>
+      <div class="pl-meta">{{ post.date | date: "%Y-%m-%d" }} | <a href="{{ site.baseurl }}/tags/{{ post.tags }}">#{{ post.tags }}</a></div>
     </li>
     {% endfor %}
   </ul>
 
-  <ul class="pagination oa">
-    <li><a href="#" class="not">&#x2190</a></li>
-    <li><a href="#" class="active">1</a></li>
-    <li><a href="#">2</a></li>
-    <li><a href="#">3</a></li>
-    <li><a href="#">4</a></li>
-    <li><a href="#">5</a></li>
-    <li><a href="#">&#x2192</a></li>
-  </ul>
+  {% include pagination.html %}
 </section>

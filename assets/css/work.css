@@ -1,0 +1,25 @@
+
+.work-info {
+  margin-top: 60px;
+  margin-bottom: 86px;
+  padding: 0 60px;
+}
+
+.work-info h2 {
+  font-size: 24px;
+  line-height: 1.6em;
+  font-weight: 600;
+}
+
+.work-info div {
+  font-size: 16px;
+  line-height:1.6em;
+  font-weight: 400;
+  color: rgba(0, 0, 0, .54);
+  margin-top: 8px;
+}
+
+.work-article {
+  line-height: 1.9rem;
+  padding: 0 60px;
+}
