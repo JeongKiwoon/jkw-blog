@@ -27,6 +27,7 @@
 
   p {
     text-align: inherit;
+    word-break: normal;
   }
 
   .no-js {
