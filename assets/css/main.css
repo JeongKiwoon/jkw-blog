@@ -27,6 +27,7 @@
 
   p {
     text-align: left;
+    word-break: break-all;
   }
 
   .no-js {
