@@ -31,7 +31,6 @@
   -webkit-line-clamp: 5;
   overflow: hidden;
   max-height: 120px;
-  word-break: break-word;
   text-overflow: ellipsis;
   line-height: 1.6rem;
   color: rgba(0, 0, 0, .54);
