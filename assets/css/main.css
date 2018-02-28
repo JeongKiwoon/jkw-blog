@@ -1,3 +1,10 @@
+---
+---
+
+  {% include_relative normalize.css %}
+  {% include_relative postList.css %}
+  {% include_relative workList.css %}
+  {% include_relative about.css %}
 
   html,
   body {
@@ -23,17 +30,13 @@
   }
 
   .main-title {
-    /* font-size: 36px; */
     font-size: 32px;
-    /* line-height: 48px; */
     line-height: 1.8rem;
     margin-bottom: 10px;
   }
 
   .main-sub {
-    /* font-size: 24px; */
     font-size: 22px;
-    /* line-height: 32px; */
     line-height: 1.8rem;
     color: rgba(0, 0, 0, .54);
   }
@@ -41,15 +44,6 @@
   * {
     box-sizing: border-box;
   }
-
-  /* .container {
-    padding-top: 96px;
-    width: 910px;
-    margin: 0 auto 0 48px;
-    /* border: 1px solid black; */
-    /* box-sizing: border-box; */
-  /* } */
-
 
   .container {
     padding-top: 96px;
@@ -82,6 +76,7 @@
     width: 960px;
     margin: 0 auto;
     text-align: left;
+    font-size: 12px;
   }
 
   .navbar {
@@ -106,3 +101,7 @@
     display: inline-block;
     margin: 0 14px;
   }
+
+  {% include_relative post.css %}
+  {% include_relative work.css %}
+  {% include_relative mq.css %}

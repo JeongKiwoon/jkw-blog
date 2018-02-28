@@ -45,19 +45,19 @@
   }
 
   .post-info {
-    padding: 0 16px;
+    padding: 0 16px !important;
   }
 
   .post-article {
-    padding: 0 16px;
+    padding: 0 16px !important;
   }
 
   .work-info {
-    padding: 0 16px;
+    padding: 0 16px !important;
   }
 
   .work-article {
-    padding: 0 16px;
+    padding: 0 16px !important;
   }
 
   /*
@@ -124,6 +124,22 @@
 
   .wl-item {
     width: 100%;
+  }
+
+  .post-info {
+    padding: 0 30px;
+  }
+
+  .post-article {
+    padding: 0 30px;
+  }
+
+  .work-info {
+    padding: 0 30px;
+  }
+
+  .work-article {
+    padding: 0 30px;
   }
 
   /*
