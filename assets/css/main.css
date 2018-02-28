@@ -25,6 +25,10 @@
     color: inherit;
   }
 
+  p {
+    text-align: inherit;
+  }
+
   .no-js {
     display: none;
   }
