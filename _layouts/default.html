@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,800" rel="stylesheet">
   <link rel="stylesheet" href="{{ site.baseurl }}{{ site.asset_url }}/css/fonts.css">
+  <link href="//fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Kiwoon Jeong</title>
+  <title>Kiwoon Jeong {% if page.title %} - {{ page.title }} {% endif%}</title>
   {% include link.html %}
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>

@@ -11,16 +11,7 @@ layout: default
 <section class="pl-sec">
   <ul class="pl-container">
     {% for post in site.categories.blog %}
-    <li class="pl-item">
-      <div class="pl-image" style="background-image: url({{ site.baseurl }}{{ post.image }});"><a href="{{ site.baseurl }}{{ post.url }}"></a></div>
-      <h2 class="pl-title"><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h2>
-      <p class="pl-desc">
-        <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
-        </a>
-      </p>
-      <div class="pl-meta">{{ post.date | date: "%Y-%m-%d" }} | <a href="{{ site.baseurl }}/tags/{{ post.tags }}">#{{ post.tags }}</a></div>
-    </li>
+      {% include item.html %}
     {% endfor %}
   </ul>
 

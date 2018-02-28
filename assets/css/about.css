@@ -21,6 +21,10 @@
   margin-bottom: 70px;
 }
 
+.about-sec a:hover {
+  text-decoration: underline;
+}
+
 .about-jkw {
   position: absolute;
   right: 0;
