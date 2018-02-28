@@ -26,8 +26,7 @@
   }
 
   p {
-    text-align: inherit;
-    word-break: break-all;
+    text-align: left;
   }
 
   .no-js {
