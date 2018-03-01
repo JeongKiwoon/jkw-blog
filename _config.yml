@@ -1,6 +1,6 @@
 markdown: kramdown
-baseurl: kiwoonjeong.com
-url: https://kiwoonjeong.com
+# baseurl: 'kiwoonjeong.com'
+url: 'https://kiwoonjeong.com'
 exclude: [README.md, Gemfile, Gemfile.lock]
 parmalink: pretty
 timezone: Asia/Seoul
