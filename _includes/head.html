@@ -3,6 +3,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<!-- facebook share button -->
+<meta property="og:url"           content="{{ site.baseurl }}{{ page.url }}" />
+<meta property="og:type"          content="website" />
+<meta property="og:title"         content="{{ page.title }}" />
+<meta property="og:description"   content="Your description" />
+<meta property="og:image"         content="{{ site.baseurl }}{{ page.image }}" />
+
 <title>Kiwoon Jeong {% if page.title %} - {{ page.title }} {% endif%}</title>
 <link rel="stylesheet" href="{{ site.baseurl }}{{ site.asset_url }}/css/main.css">
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
