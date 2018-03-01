@@ -1,5 +1,6 @@
 markdown: kramdown
-baseurl: https://jeongkiwoon.github.io/jkw-blog
+baseurl: /jkw-blog
+url: jeongkiwoon.github.io/jkw-blog
 exclude: [README.md, Gemfile, Gemfile.lock]
 parmalink: pretty
 timezone: Asia/Seoul
