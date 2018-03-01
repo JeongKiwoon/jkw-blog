@@ -2,7 +2,7 @@
   {% if paginator.previous_page %}
     <li><a href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ paginator.previous_page }}</a></li>
   {% else %}
-    <li><span></span></li>
+    <span></span>
   {% endif %}
 
   <li><span class="active">{{ paginator.page }}</span></li>
@@ -10,6 +10,6 @@
   {% if paginator.next_page %}
     <li><a href="{{ site.baseurl }}{{ paginator.next_page_path }}">{{ paginator.next_page }}</a></li>
   {% else %}
-    <li><span></span></li>
+    <span></span>
   {% endif %}
 </ul>
