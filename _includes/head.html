@@ -7,7 +7,7 @@
 {% if page.layout == 'post' %}
 {% assign meta_title = page.title %}
 {% assign meta_author = page.author | default: site.author %}
-{% assign meta_description = page.excerpt %}
+{% assign meta_description = page.excerpt | remove: '<p>' | remove: '</p>' %}
 {% assign meta_url = page.url %}
 {% assign meta_image = page.image %}
 {% assign meta_type = 'article' %}
