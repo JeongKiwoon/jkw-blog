@@ -15,9 +15,9 @@ layout: default
 </section>
 <article class="post-article">
   {{ content }}
-  <div class="fb-share-button share" data-href="{{site.url}}{{page.url}}" data-layout="button_count" data-size="small" data-mobile-iframe="true">
-    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" class="fb-xfbml-parse-ignore">공유하기</a>
+  <div class="fb-share-button share" data-href="{{page.url}}" data-layout="button_count" data-size="small" data-mobile-iframe="true">
+    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{page.url}}" class="fb-xfbml-parse-ignore">공유하기</a>
   </div>
 </article>
 
-<div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="100%" data-numposts="5"></div>
+<div class="fb-comments" data-href="{{ page.url }}" data-width="100%" data-numposts="5"></div>
