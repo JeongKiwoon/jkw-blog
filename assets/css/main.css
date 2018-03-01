@@ -30,10 +30,6 @@
     word-break: break-all;
   }
 
-  .no-js {
-    display: none;
-  }
-
   .main-title {
     font-size: 32px;
     line-height: 1.8rem;
