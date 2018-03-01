@@ -3,8 +3,6 @@
   $(function () {
     // 전역변수
 
-    $('html').removeClass('no-js');
-
     var
         $wl_item = $('.wl-item'),
         $wl_image = $('.wl-image'),

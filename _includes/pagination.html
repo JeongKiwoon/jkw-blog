@@ -1,9 +1,15 @@
 <ul class="pagination oa">
-  <!-- <li><a href="#" class="not">&#x2190</a></li> -->
-  <li><a href="#">1</a></li>
-  <!-- <li><a href="#" class="active">2</a></li> -->
-  <!-- <li><a href="#">3</a></li> -->
-  <!-- <li><a href="#">4</a></li> -->
-  <!-- <li><a href="#">5</a></li> -->
-  <!-- <li><a href="#">&#x2192</a></li> -->
+  {% if paginator.previous_page %}
+    <li><a href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ paginator.previous_page }}</a></li>
+  {% else %}
+    <li><span></span></li>
+  {% endif %}
+
+  <li><span>{{ paginator.page }}</span></li>
+
+  {% if paginator.next_page %}
+    <li><a href="{{ site.baseurl }}{{ paginator.next_page_path }}">{{ paginator.next_page }}</a></li>
+  {% else %}
+    <li><span></span></li>
+  {% endif %}
 </ul>

@@ -15,4 +15,7 @@ layout: default
 </section>
 <article class="post-article">
   {{ content }}
+  <a class="share" href="http://www.facebook.com/sharer/sharer.php?u={{site.baseurl}}{{page.url}}" target="_blank">페이스북공유하기</a>
 </article>
+
+<div class="fb-comments" data-href="{{ site.baseurl }}{{ page.url }}" data-width="100%" data-numposts="5"></div>
