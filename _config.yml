@@ -5,6 +5,10 @@ parmalink: pretty
 timezone: Asia/Seoul
 keep_files: [assets, files]
 excerpt_separator: <!--more-->
+title: 'Kiwoon Jeong'
+author: 'Kiwoon Jeong'
+description: '정기운의 블로그입니다.'
+
 
 krandown:
   input: GFM
@@ -30,6 +34,7 @@ defaults:
       type: posts
     values:
       permalink: /:year/:month/:day/:title/
+      author: 'Kiwoon Jeong'
   -
     scope:
       path: ""
