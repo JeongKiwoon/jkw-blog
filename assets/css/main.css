@@ -82,6 +82,28 @@
     background-color: lightgoldenrodyellow;
   }
 
+  .main-article .highlighter-rouge {
+    background-color: gold;
+  }
+
+  .main-article figcaption {
+    font-family: serif;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+  }
+
+  .main-article h3 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 0;
+  }
+
+  .main-article p {
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+
   .main-article ul {
     list-style: disc;
   }
