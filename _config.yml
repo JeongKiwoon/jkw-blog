@@ -34,7 +34,7 @@ defaults:
       path: ""
       type: posts
     values:
-      permalink: /:year/:month/:day/:title/
+      permalink: /:title/
       author: 'Kiwoon Jeong'
   -
     scope:

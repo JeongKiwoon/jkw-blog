@@ -67,9 +67,7 @@
   }
 
   .main-article img {
-    width: 70%;
-    margin-left: 50%;
-    transform: translate(-50%, 0);
+    width: 100%;
   }
 
   .main-article blockquote {
@@ -98,6 +96,10 @@
 
   .main-article ol li {
     list-style: inherit;
+  }
+
+  .main-article figure {
+    display: inline-block;
   }
 
   .main-footer {
