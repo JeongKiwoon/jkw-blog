@@ -148,7 +148,8 @@
 
   .about-sec {
     width: 100%;
-    margin-bottom: 700px;
+    height: 100%;
+    margin-bottom: 100px;
   }
 
   .about-info-container {
