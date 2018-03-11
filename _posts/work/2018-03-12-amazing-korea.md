@@ -5,7 +5,7 @@ postT: 'Amazing Korea Website'
 sub: 'Web'
 role: ['Design: Kiwoon Jeong', 'Development: Kiwoon Jeong']
 date: 2018-02-10
-image: /files/work-post-covers/photo-1.jpg
+image: /files/work-post-covers/photo-3.jpg
 category: work
 ---
 
